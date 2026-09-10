@@ -1,0 +1,5 @@
+Planet,Mass_kg,Radius_m,Gravity_m_s2,Color
+Earth,5.972e24,6371e3,9.81,cornflowerblue
+Mars,6.39e23,3389e3,3.71,indianred
+Moon,7.342e22,1737.4e3,1.62,silver
+Jupiter,1.898e27,69911e3,24.79,goldenrod
