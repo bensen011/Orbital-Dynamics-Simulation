@@ -2,11 +2,11 @@
 
 ## Overview:
 
-An interactive Python simulation that models Keplerian trajectories and calcultes the $\Delta v$ requirements for apsidal circularisation manoeuvers. This tool visualises unpowered spaceflight and orbital phase shifting in real-time, functioning as a dynamic mission-control telemetry display.
+An interactive Python simulation that models Keplerian trajectories and calculates the $\Delta v$ requirements for apsidal circularisation manoeuvres. This tool visualises unpowered spaceflight and orbital phase shifting in real-time, functioning as a dynamic mission-control telemetry display.
 
 ## Key Features:
 
-**Physics Engine:** Calculates real-time orbital velocity and manoeuver requirements using the Vis-viva equation:
+**Physics Engine:** Calculates real-time orbital velocity and manoeuvre requirements using the Vis-viva equation:
 
 
 $$v = \sqrt{GM(2/r - 1/a)}$$
@@ -15,12 +15,12 @@ $$v = \sqrt{GM(2/r - 1/a)}$$
 
 **Memory Management:** Implements a sliding-window algorithm for the satellite's telemetry trail, ensuring memory-efficient rendering over 100,000+ frames.
 
-**Interactive UI:** Reads a _.csv_ database of planetary parameters and handles dynamic user inputs for manoeuver selection (Periapsis vs. Apoapsis stabilisation).
+**Interactive UI:** Reads a _.csv_ database of planetary parameters and handles dynamic user inputs for manoeuvre selection (Periapsis vs. Apoapsis stabilisation).
 
 ## Dependencies:
 
 To run this simulation, you will need Python 3 installed along with the following libraries:
-- NumpP
+- NumPy
 - SciPy
 - Matplotlib
 
