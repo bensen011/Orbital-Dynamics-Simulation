@@ -38,8 +38,8 @@ To run this simulation, you will need Python 3 installed along with the followin
 ### Planets:
 
 
-![Earth](<img width="121" height="121"  alt="image" title="Earth" src="https://github.com/user-attachments/assets/fc424449-53d2-4368-b871-9fbfd98e6488"  />)
 
+<img width="121" height="121"  alt="image" src="https://github.com/user-attachments/assets/fc424449-53d2-4368-b871-9fbfd98e6488"  />
 
 
 
