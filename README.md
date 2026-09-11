@@ -35,16 +35,17 @@ To run this simulation, you will need Python 3 installed along with the followin
 
 ## Visuals:
 
-### Planets:
+### Maintaining Orbit:
 
+<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52" src="https://github.com/user-attachments/assets/1fa1711e-b2d6-40fe-a0c2-42f244a80783" />
 
+### Periapsis Stabilisation:
 
-<img width="121" height="121"  alt="image" src="https://github.com/user-attachments/assets/fc424449-53d2-4368-b871-9fbfd98e6488"  />
+<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52-2" src="https://github.com/user-attachments/assets/e780b110-bc64-4112-af8f-3bbc11de3b07" />
 
+### Apoapsis Stabilisation:
 
-
-
-
+<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52-3" src="https://github.com/user-attachments/assets/cb81d363-c8aa-420c-a8ce-266e05a8be42" />
 
 
 
