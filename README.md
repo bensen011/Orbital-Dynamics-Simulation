@@ -1,27 +1,27 @@
-# Orbital Dynamics & Maneuver Simulator
+# Orbital Dynamics & Manoeuvre Simulator
 
 ## Overview:
 
-An interacitve Python simulation that models Keplerian trajectories and calucltes the $\Delta v$ requirements for apsidal circularisation maneuvers. This tool visualises unpowered spaceflight and orbital phase shifting in real-time, functioning as a dynamics mission-control telemetry display.
+An interactive Python simulation that models Keplerian trajectories and calcultes the $\Delta v$ requirements for apsidal circularisation manoeuvers. This tool visualises unpowered spaceflight and orbital phase shifting in real-time, functioning as a dynamic mission-control telemetry display.
 
 ## Key Features:
 
-**Physics Engine:** Calulates real-time orbital velocity and maneuver requirements using the Vis-viva equation:
+**Physics Engine:** Calculates real-time orbital velocity and manoeuver requirements using the Vis-viva equation:
 
 
 $$v = \sqrt{GM(2/r - 1/a)}$$
 
 **Dynamic Rendering:** Utilises Matplotlib's _FuncAnimation_ to generate seamless track-switching between elliptical and circular coordinate arrays.
 
-**Memory Management:** Implements a sliding-window algorithm for the satellite's telemetry trail, ensuring memory-efficinet rendering over 100,000+ frames.
+**Memory Management:** Implements a sliding-window algorithm for the satellite's telemetry trail, ensuring memory-efficient rendering over 100,000+ frames.
 
-**Interactive UI:** Reads a _.csv_ database of planetary parameters and handles dynamic user inputs for manoeuver selection (Periapsis vs. Apoapsis stabilisation)
+**Interactive UI:** Reads a _.csv_ database of planetary parameters and handles dynamic user inputs for manoeuver selection (Periapsis vs. Apoapsis stabilisation).
 
 ## Dependencies:
 
 To run this simulation, you will need Python 3 installed along with the following libraries:
-- numpy
-- scipy
+- NumpP
+- SciPy
 - Matplotlib
 
 ## Usage:
@@ -31,21 +31,27 @@ To run this simulation, you will need Python 3 installed along with the followin
 3. Run the script via your terminal:
    ````python
    python Satellite_Orbit.py
-4. Follow the terminal prompts to select a celestrial body, define your Apsides, and execute orbital manoeuvres.
+   ````
+4. Follow the terminal prompts to select a celestial body, define your Apsides, and execute orbital manoeuvres.
 
 ## Visuals:
 
 ### Maintaining Orbit:
 
-<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52" src="https://github.com/user-attachments/assets/1fa1711e-b2d6-40fe-a0c2-42f244a80783" />
+<div align="center">
+   <img width="320" height="240" alt="Maintaining Orbit" src="https://github.com/user-attachments/assets/1fa1711e-b2d6-40fe-a0c2-42f244a80783" />
+</div>
 
 ### Periapsis Stabilisation:
 
-<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52-2" src="https://github.com/user-attachments/assets/e780b110-bc64-4112-af8f-3bbc11de3b07" />
+<div align="center">
+   <img width="320" height="240" alt="Periapsis Stabilisation" src="https://github.com/user-attachments/assets/e780b110-bc64-4112-af8f-3bbc11de3b07" />
+</div>
 
 ### Apoapsis Stabilisation:
 
-<img width="320" height="240" alt="Untitled - 11 September 2026 at 02 33 52-3" src="https://github.com/user-attachments/assets/cb81d363-c8aa-420c-a8ce-266e05a8be42" />
-
+<div align="center">
+   <img width="320" height="240" alt="Apoapsis Stabilisation" src="https://github.com/user-attachments/assets/cb81d363-c8aa-420c-a8ce-266e05a8be42" />
+</div>
 
 
